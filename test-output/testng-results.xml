@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-18T14:55:30 IST" name="Default suite" finished-at="2025-04-18T14:56:14 IST" duration-ms="44238">
+  <suite started-at="2025-04-22T00:43:45 IST" name="Default suite" finished-at="2025-04-22T00:44:22 IST" duration-ms="37170">
     <groups>
       <group name="Purchase">
         <method signature="CutomiseEndToEndTest.submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" name="submitOrder" class="SeleniumFramework.Test.CutomiseEndToEndTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2025-04-18T14:55:30 IST" name="Default test" finished-at="2025-04-18T14:56:14 IST" duration-ms="44238">
+    <test started-at="2025-04-22T00:43:45 IST" name="Default test" finished-at="2025-04-22T00:44:22 IST" duration-ms="37170">
       <class name="SeleniumFramework.Test.CutomiseEndToEndTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:55:31 IST" name="launchApp" finished-at="2025-04-18T14:55:48 IST" duration-ms="16731" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:43:46 IST" name="launchApp" finished-at="2025-04-22T00:43:55 IST" duration-ms="9074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:55:48 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-18T14:55:57 IST" duration-ms="9480" status="FAIL">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:43:55 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-22T00:44:04 IST" duration-ms="8663" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:55:57 IST" name="closebrowser" finished-at="2025-04-18T14:55:58 IST" duration-ms="735" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:44:04 IST" name="closebrowser" finished-at="2025-04-22T00:44:07 IST" duration-ms="2692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:55:58 IST" name="launchApp" finished-at="2025-04-18T14:56:04 IST" duration-ms="6380" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:44:07 IST" name="launchApp" finished-at="2025-04-22T00:44:12 IST" duration-ms="5578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:56:04 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-18T14:56:14 IST" duration-ms="9627" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:44:12 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-22T00:44:22 IST" duration-ms="9635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:56:14 IST" name="closebrowser" finished-at="2025-04-18T14:56:14 IST" duration-ms="414" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:44:22 IST" name="closebrowser" finished-at="2025-04-22T00:44:22 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method signature="orderHistory()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-18T14:56:14 IST" name="orderHistory" finished-at="2025-04-18T14:56:14 IST" depends-on-methods="SeleniumFramework.Test.CutomiseEndToEndTest.submitOrder" duration-ms="0" status="SKIP">
+        <test-method signature="orderHistory()[pri:0, instance:SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe]" started-at="2025-04-22T00:44:22 IST" name="orderHistory" finished-at="2025-04-22T00:44:22 IST" depends-on-methods="SeleniumFramework.Test.CutomiseEndToEndTest.submitOrder" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method SeleniumFramework.Test.CutomiseEndToEndTest.orderHistory() on instance SeleniumFramework.Test.CutomiseEndToEndTest@4a003cbe depends on not successfully finished methods 
