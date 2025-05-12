@@ -90,6 +90,11 @@ public class BaseTest {
 		System.out.println("git check again");
 		
 	}
-	
+	@AfterMethod(enabled =false)
+	public void aftermethod() {
+		System.out.println("braching");
+		System.out.println("after method");
+		
+	}
 	
 }
