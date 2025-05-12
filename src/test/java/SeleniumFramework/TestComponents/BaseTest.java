@@ -80,5 +80,16 @@ public class BaseTest {
 	public void closebrowser() {
 		driver.quit();
 	}
+	@BeforeMethod(enabled =false)
+	public void checkmethod() {
+		System.out.println("git check");
+	}
+	@BeforeMethod(enabled =false)
+	public void checmatekmethod() {
+		System.out.println("git check again");
+		System.out.println("git check again");
+		
+	}
+	
 	
 }
